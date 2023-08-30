@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    display:flex;
+    /* justify-content: flex-start; */
+    background-color: white;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* margin-left: 100px; */
+    align-items: center;
+
+}
+.header-flex p{
+    text-align: center;
+    background-color: white;
+}
+.section1-flex{
+    display: flex;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid black; */
+}
+.section1-flex .img{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 60vh;
+    background-image: url(./image2-removebg.png) ; 
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* border: 2px solid black; */
+ } 
+ .img{
+    display: flex;
+    justify-content: flex-end;
+ }
+.tailor-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 2px solid white;
+    align-items: center;
+}
+.tailor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tailor-flex h2{
+    color: white;
+    align-items: center;
+}
+.tailor-flex p{
+    color: white;
+}
+.tailor p{
+    color: white;
+    text-align: center;
+}
+.btn-1 button{
+    width: 25vw;
+    height: 9vh;
+    color: white;
+}
+.btn-1 h4{
+    color: rgb(5, 180, 250);
+}
+.section2-flex{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.btn-2 button{
+  width: 18vw;
+    height: 7vh;
+    border: 1px solid rgb(5, 182, 252);
+    color: white;  
+}
+.btn-2 h3{
+    color:rgb(5, 182, 252); 
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 30vh;
+}
+.file{
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+}

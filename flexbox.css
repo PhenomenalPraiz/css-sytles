@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-box{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid black ;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.flex-box section{
+    border: 2px solid rgb(245, 5, 5);
+    padding: 50px;
+}
+.first{
+    flex-basis: 50%;
+}

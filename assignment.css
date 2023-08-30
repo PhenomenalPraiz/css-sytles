@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid rgb(26, 15, 2);
+    background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./assignment/city.jpg);
+    /* max-width: 80%; */
+
+}
+.flex-box section{
+    border: 2px solid transparent;
+    /* padding: 50px; */
+    height: 35vh;
+    width: 20vw;
+    background-size: cover;             
+
+}
+h3{
+    background-color: white;
+    width: 250px;
+    position: relative;
+    bottom: 3px;
+}
+p{
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    position: relative;
+    bottom: 3px;
+    
+}
+/* section img:hover{
+    box-sizing: border-box;
+    padding: 80px;
+    background-color: purple;
+    transition: ease-in-out 2s; */
+}
